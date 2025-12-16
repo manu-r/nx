@@ -1,4 +1,32 @@
 {
+  "release": {
+    "projects": ["cart"],
+    "version": {
+      "conventionalCommits": true,
+      "logUnchangedProjects": false
+    },
+    "releaseTag": {
+      "pattern": "v{version}",
+      "requireSemver": true,
+      "preferDockerVersion": false
+    },
+    "changelog": {
+      "automaticFromRef": true,
+      "projectChangelogs": {
+        "file": false,
+        "createRelease": "github",
+        "entryWhenNoChanges": false
+      }
+    },
+    "projectsRelationship": "independent",
+    "docker": {
+      "registryUrl": "ghcr.io",
+      "versionSchemes": {
+        "production": "{currentDate|YYMMDD}.{shortCommitSha}",
+        "development": "{currentDate|YYMMDD}.{shortCommitSha}-dev"
+      }
+    }
+  },
   "generators": {
     "@nx/angular:application": {
       "unitTestRunner": "jest",
