@@ -1,0 +1,8 @@
+{
+  "name": "cart",
+  "description": "description",
+  "authors": "author",
+  "version": "1.1.0",
+  "main": "pathToMain",
+  "dependencies": {}
+}
