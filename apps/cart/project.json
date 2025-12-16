@@ -8,7 +8,7 @@
     "build": {
       "executor": "@nx/webpack:webpack",
       "options": {
-        "outputPath": "dist/apps/cart",
+        "outputPath": "apps/cart/dist",
         "webpackConfig": "apps/cart/webpack.config.js",
         "index": "apps/cart/src/index.html",
         "main": "apps/cart/src/main.tsx",

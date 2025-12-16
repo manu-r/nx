@@ -5288,6 +5288,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nx/docker@npm:22.2.0-beta.4":
+  version: 22.2.0-beta.4
+  resolution: "@nx/docker@npm:22.2.0-beta.4"
+  dependencies:
+    "@nx/devkit": "npm:22.2.0-beta.4"
+    enquirer: "npm:~2.3.6"
+    tslib: "npm:^2.3.0"
+  checksum: 10c0/a785c611f9fe59e0f0ee9a83540d2fd1bf7e7bd91ef540423afe198c5dc43ce12c6b37fbcc3be1b5eac99587acd9e30f6370c4bf7d024422a64f966f8586c0b0
+  languageName: node
+  linkType: hard
+
 "@nx/eslint-plugin@npm:22.2.0-beta.4":
   version: 22.2.0-beta.4
   resolution: "@nx/eslint-plugin@npm:22.2.0-beta.4"
@@ -18205,6 +18216,7 @@ __metadata:
     "@nx/angular": "npm:22.2.0-beta.4"
     "@nx/cypress": "npm:22.2.0-beta.4"
     "@nx/devkit": "npm:22.2.0-beta.4"
+    "@nx/docker": "npm:22.2.0-beta.4"
     "@nx/eslint": "npm:22.2.0-beta.4"
     "@nx/eslint-plugin": "npm:22.2.0-beta.4"
     "@nx/jest": "npm:22.2.0-beta.4"
